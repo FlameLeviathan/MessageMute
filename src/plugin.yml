@@ -1,0 +1,10 @@
+name: MessageMute
+main: dev.FlameKnight15.Main
+version: 2.2
+author: FlameKnight15
+depend: [ProtocolLib]
+commands:
+   mm:
+      description: Shows available commands
+      usage: /mm
+      aliases: [messagemute] 

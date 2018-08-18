@@ -1,0 +1,14 @@
+##The prefix of the messages when running a command
+chat-Prefix: '&7RisenCloud'
+##This is the variable that the plugin will ignore when checking msgs. Use this to ignore portions of a message
+ignore-var: '%ignore%'
+
+Messages:
+   examplePerm:
+      Msg:
+       - "test"
+       - "Hello %ignore% Welcome back to the server!"
+Commands:
+    exampleCommand:
+        Cmd:
+         - "spawn"
